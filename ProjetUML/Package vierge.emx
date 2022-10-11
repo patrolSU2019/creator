@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.6-->
+<!--Rational Software Architect Designer 9.7.0.1-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <uml:Package xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_qiYEMDjOEe275YA7SodOKg" name="Package vierge">
@@ -58,6 +58,19 @@
         <children xmi:type="notation:SemanticListCompartment" xmi:id="_vb8QI0PPEe25jKPo462rpA" visible="false" type="SignalCompartment"/>
         <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_vb8QJEPPEe25jKPo462rpA" visible="false" type="StructureCompartment"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vb7CAUPPEe25jKPo462rpA" x="17688" y="9504" width="4362" height="4017"/>
+      </children>
+      <children xmi:type="umlnotation:UMLShape" xmi:id="_zZmtYElSEe2QSqFySUOTaA" element="_zZh04ElSEe2QSqFySUOTaA" fontName="Cantarell" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+        <children xmi:type="notation:DecorationNode" xmi:id="_zZn7gElSEe2QSqFySUOTaA" type="ImageCompartment">
+          <layoutConstraint xmi:type="notation:Size" xmi:id="_zZn7gUlSEe2QSqFySUOTaA" width="1320" height="1320"/>
+        </children>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_zZoikElSEe2QSqFySUOTaA" type="Stereotype"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_zZoikUlSEe2QSqFySUOTaA" type="Name"/>
+        <children xmi:type="notation:BasicDecorationNode" xmi:id="_zZoikklSEe2QSqFySUOTaA" type="Parent"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_zZpwsElSEe2QSqFySUOTaA" type="AttributeCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_zZpwsUlSEe2QSqFySUOTaA" type="OperationCompartment"/>
+        <children xmi:type="notation:SemanticListCompartment" xmi:id="_zZqXwElSEe2QSqFySUOTaA" visible="false" type="SignalCompartment"/>
+        <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_zZqXwUlSEe2QSqFySUOTaA" visible="false" type="StructureCompartment"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zZmtYUlSEe2QSqFySUOTaA" x="25955" y="7328"/>
       </children>
       <element xsi:nil="true"/>
       <edges xmi:type="umlnotation:UMLConnector" xmi:id="_lRDJcEPPEe25jKPo462rpA" element="_lQ3jQEPPEe25jKPo462rpA" source="_fOAB4EPPEe25jKPo462rpA" target="_fXtXgEPPEe25jKPo462rpA" fontName="Cantarell" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
@@ -473,6 +486,19 @@
   <packagedElement xmi:type="uml:Association" xmi:id="_1KgDgEPREe25jKPo462rpA" name="Condition" memberEnd="_1KhRoEPREe25jKPo462rpA _1Kjt4EPREe25jKPo462rpA"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_G--KsEPSEe25jKPo462rpA" name="fstSection" memberEnd="_G-_Y0EPSEe25jKPo462rpA _G_B1EEPSEe25jKPo462rpA"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_g6cOMEPSEe25jKPo462rpA" name="find" memberEnd="_g6c1QEPSEe25jKPo462rpA _g6eDYEPSEe25jKPo462rpA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_zZh04ElSEe2QSqFySUOTaA" name="LDVH">
+    <ownedOperation xmi:id="_3Ck_MElSEe2QSqFySUOTaA" name="creerLivreHTML">
+      <ownedParameter xmi:id="_6b7qMEleEe2toJOmouOXiQ" name="l" type="_fETTUEPPEe25jKPo462rpA"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_K1qfcElkEe2toJOmouOXiQ" name="creerSection"/>
+    <ownedOperation xmi:id="_1TuA8EljEe2toJOmouOXiQ" name="hasItem"/>
+    <ownedOperation xmi:id="_7AUCQElhEe2toJOmouOXiQ" name="addItems"/>
+    <ownedOperation xmi:id="_97ARwElhEe2toJOmouOXiQ" name="defineCond"/>
+    <ownedOperation xmi:id="_AwM9QEliEe2toJOmouOXiQ" name="createItem"/>
+    <ownedOperation xmi:id="_9MMV4ElfEe2toJOmouOXiQ" name="conditionEnchainement"/>
+    <ownedOperation xmi:id="_DsvRwElgEe2toJOmouOXiQ" name="creerEnchainement"/>
+    <ownedOperation xmi:id="_1Mc4IElfEe2toJOmouOXiQ" name="creerLivreImpri"/>
+  </packagedElement>
   <profileApplication xmi:id="_qiYENDjOEe275YA7SodOKg">
     <eAnnotations xmi:id="_qiYENTjOEe275YA7SodOKg" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
