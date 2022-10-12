@@ -3,7 +3,7 @@
 <!--Rational Software Architect Designer 9.6-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
   <uml:Package xmi:id="_Rbkon0l_Ee22odq9FQEeNw" name="creator">
     <eAnnotations xmi:id="_RbkooEl_Ee22odq9FQEeNw" source="uml2.diagrams"/>
     <packageImport xmi:id="_RbkooUl_Ee22odq9FQEeNw">
@@ -85,16 +85,6 @@
                 <children xmi:type="notation:ListCompartment" xmi:id="_Rbko30l_Ee22odq9FQEeNw" visible="false" type="Extension_Points"/>
                 <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rbko4El_Ee22odq9FQEeNw" x="952" y="8090"/>
               </children>
-              <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_Rbko4Ul_Ee22odq9FQEeNw" element="_Rbmd20l_Ee22odq9FQEeNw" fontName="Sans" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
-                <children xmi:type="notation:DecorationNode" xmi:id="_Rbko4kl_Ee22odq9FQEeNw" type="ImageCompartment">
-                  <layoutConstraint xmi:type="notation:Size" xmi:id="_Rbko40l_Ee22odq9FQEeNw" width="2216" height="1322"/>
-                </children>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Rbko5El_Ee22odq9FQEeNw" type="Stereotype"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Rbko5Ul_Ee22odq9FQEeNw" type="Name"/>
-                <children xmi:type="notation:BasicDecorationNode" xmi:id="_Rbko5kl_Ee22odq9FQEeNw" type="Parent"/>
-                <children xmi:type="notation:ListCompartment" xmi:id="_Rbko50l_Ee22odq9FQEeNw" visible="false" type="Extension_Points"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Rbko6El_Ee22odq9FQEeNw" x="6482" y="9956"/>
-              </children>
               <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_Rbko6Ul_Ee22odq9FQEeNw" element="_Rbmd3El_Ee22odq9FQEeNw" fontName="Sans" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
                 <children xmi:type="notation:DecorationNode" xmi:id="_Rbko6kl_Ee22odq9FQEeNw" type="ImageCompartment">
                   <layoutConstraint xmi:type="notation:Size" xmi:id="_Rbko60l_Ee22odq9FQEeNw" width="2216" height="1322"/>
@@ -169,15 +159,6 @@
             <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RblPTkl_Ee22odq9FQEeNw" x="6657" y="-951" width="16586" height="17214"/>
           </children>
           <element xsi:nil="true"/>
-          <edges xmi:type="umlnotation:UMLConnector" xmi:id="_RblPT0l_Ee22odq9FQEeNw" element="_Rbmd3Ul_Ee22odq9FQEeNw" source="_Rbko6Ul_Ee22odq9FQEeNw" target="_Rbko4Ul_Ee22odq9FQEeNw" fontName="Sans" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
-            <children xmi:type="notation:DecorationNode" xmi:id="_RblPUEl_Ee22odq9FQEeNw" type="KindLabel">
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RblPUUl_Ee22odq9FQEeNw" type="Stereotype"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RblPUkl_Ee22odq9FQEeNw" type="Kind"/>
-              <children xmi:type="notation:BasicDecorationNode" xmi:id="_RblPU0l_Ee22odq9FQEeNw" type="Name"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RblPVEl_Ee22odq9FQEeNw" y="-186"/>
-            </children>
-            <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RblPVUl_Ee22odq9FQEeNw" points="[51, -9, -128, 30]$[170, -15, -9, 24]"/>
-          </edges>
           <edges xmi:type="umlnotation:UMLConnector" xmi:id="_RblPVkl_Ee22odq9FQEeNw" element="_Rbmd5El_Ee22odq9FQEeNw" source="_RbkopUl_Ee22odq9FQEeNw" target="_RbkouUl_Ee22odq9FQEeNw" fontName="Sans" fontHeight="8" lineColor="8421504" lineWidth="1" showStereotype="Text">
             <children xmi:type="notation:DecorationNode" xmi:id="_RblPV0l_Ee22odq9FQEeNw" type="NameLabel">
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_RblPWEl_Ee22odq9FQEeNw" type="Stereotype"/>
@@ -1155,19 +1136,52 @@
         <packagedElement xmi:type="uml:Association" xmi:id="_Rbmd00l_Ee22odq9FQEeNw" name="has" memberEnd="_Rbmdn0l_Ee22odq9FQEeNw _RbmdvEl_Ee22odq9FQEeNw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_Rbmd1El_Ee22odq9FQEeNw" name="Auteur"/>
-      <packagedElement xmi:type="uml:Component" xmi:id="_Rbmd1Ul_Ee22odq9FQEeNw" name="LDVH" useCase="_Rbmd1kl_Ee22odq9FQEeNw _Rbmd10l_Ee22odq9FQEeNw _Rbmd2El_Ee22odq9FQEeNw _Rbmd2Ul_Ee22odq9FQEeNw _Rbmd2kl_Ee22odq9FQEeNw _Rbmd20l_Ee22odq9FQEeNw _Rbmd3El_Ee22odq9FQEeNw _Rbmd3kl_Ee22odq9FQEeNw _Rbmd30l_Ee22odq9FQEeNw _Rbmd4El_Ee22odq9FQEeNw _Rbmd4Ul_Ee22odq9FQEeNw _Rbmd4kl_Ee22odq9FQEeNw _Rbmd40l_Ee22odq9FQEeNw">
-        <ownedUseCase xmi:id="_Rbmd1kl_Ee22odq9FQEeNw" name="Créer un livre" subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
-        <ownedUseCase xmi:id="_Rbmd10l_Ee22odq9FQEeNw" name="Créer une section" subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
-        <ownedUseCase xmi:id="_Rbmd2El_Ee22odq9FQEeNw" name="Charger un livre existant" subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
-        <ownedUseCase xmi:id="_Rbmd2Ul_Ee22odq9FQEeNw" name="Créer un enchainement de sections" subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
-        <ownedUseCase xmi:id="_Rbmd2kl_Ee22odq9FQEeNw" name="Créer un objet" subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
-        <ownedUseCase xmi:id="_Rbmd20l_Ee22odq9FQEeNw" name="Analyse graphe" subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
-        <ownedUseCase xmi:id="_Rbmd3El_Ee22odq9FQEeNw" name="Générer le graphe" subject="_Rbmd1Ul_Ee22odq9FQEeNw">
-          <include xmi:id="_Rbmd3Ul_Ee22odq9FQEeNw" addition="_Rbmd20l_Ee22odq9FQEeNw"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_Rbmd1Ul_Ee22odq9FQEeNw" name="LDVH" useCase="_Rbmd1kl_Ee22odq9FQEeNw _Rbmd10l_Ee22odq9FQEeNw _Rbmd2El_Ee22odq9FQEeNw _Rbmd2Ul_Ee22odq9FQEeNw _Rbmd2kl_Ee22odq9FQEeNw _Rbmd3El_Ee22odq9FQEeNw _Rbmd3kl_Ee22odq9FQEeNw _Rbmd30l_Ee22odq9FQEeNw _Rbmd4El_Ee22odq9FQEeNw _Rbmd4Ul_Ee22odq9FQEeNw _Rbmd4kl_Ee22odq9FQEeNw _Rbmd40l_Ee22odq9FQEeNw">
+        <ownedUseCase xmi:id="_Rbmd1kl_Ee22odq9FQEeNw" name="Créer un livre" subject="_Rbmd1Ul_Ee22odq9FQEeNw">
+          <ownedComment xmi:id="_7ZAJ0Eo3Ee2Zu6u5M9a3MA" annotatedElement="_Rbmd1kl_Ee22odq9FQEeNw">
+            <body>&lt;p>Titre : Créer un livre&lt;/p>&lt;p>Description : L’auteur crée un livre&lt;/p>&lt;p>Acteurs : Auteur&lt;/p>&lt;p>Préconditions : Auteur est sur la page d’acceuil&lt;/p>&lt;p>Séquencement nominal : &lt;/p>&lt;p>1. Auteur choisi la creation d’un livre&lt;/p>&lt;p>2. Le syst affiche l'interface de la creation : formulaire&lt;/p>&lt;p>3. Auteur rempli le formulaire&lt;/p>&lt;p>4. L’auteur valide la creation du livre&lt;/p>&lt;p>5. Syst vérifie que les informations données sont conformes&lt;/p>&lt;p>6. Syst affiche l’interface du livre crée&lt;/p>&lt;p>Alternatives : &lt;/p>&lt;p>1. SN3, si auteur annule la creation, alors on retourne a la page d’acceuil&lt;/p>&lt;p>2. SN5, si syst affiche que il y a un echec (ex : nom déjà pris), alors on retourne a SN2 avec les problèmes &lt;/p>&lt;p>Exceptions : &lt;/p>&lt;p>Postconditions : &lt;/p>&lt;p>1. Le livre crée apparaît dans la page d’acceuil&lt;/p>&lt;p>2. Le nombre de livres incremente d’1&lt;/p></body>
+          </ownedComment>
         </ownedUseCase>
-        <ownedUseCase xmi:id="_Rbmd3kl_Ee22odq9FQEeNw" name="Générer pages HTML" subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
-        <ownedUseCase xmi:id="_Rbmd30l_Ee22odq9FQEeNw" name="Générer version imprimable " subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
-        <ownedUseCase xmi:id="_Rbmd4El_Ee22odq9FQEeNw" name="Gérer des information du livre" subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
+        <ownedUseCase xmi:id="_Rbmd10l_Ee22odq9FQEeNw" name="Créer une section" subject="_Rbmd1Ul_Ee22odq9FQEeNw">
+          <ownedComment xmi:id="_Q7CH4Eo4Ee2Zu6u5M9a3MA" annotatedElement="_Rbmd10l_Ee22odq9FQEeNw">
+            <body>&lt;p>Titre : Créer une section&lt;/p>&lt;p>Description : créer une nouvelle section &lt;/p>&lt;p>Acteurs : Utilisateur&lt;/p>&lt;p>Préconditions : &lt;/p>&lt;p>- L’utilisateur a ouvert un livre&lt;/p>&lt;p>- les objets à lier à la nouvelle section sont déjà créés&lt;/p>&lt;p>Séquencement nominal : &lt;/p>&lt;p>1. Auteur choisi la création d’une section&lt;/p>&lt;p>2. Le système affiche l'interface de la création : formulaire&lt;/p>&lt;p>3. Auteur rempli le formulaire&lt;/p>&lt;p>4. Auteur valide la création de la section&lt;/p>&lt;p>5. Système vérifie que le nom de section n’est pas utilisé&lt;/p>&lt;p>6. Retour sur le livre courant&lt;/p>&lt;p>Alternatives : &lt;/p>&lt;p>- SN5 si le nom saisit est déjà utilisé, affiche que la section est existante, retour SN3&lt;/p>&lt;p>Exceptions : &lt;/p>&lt;p>- l’Auteur appui sur annulé et la fiche se ferme&lt;/p>&lt;p>Postconditions :&lt;/p>&lt;p>- le système a créé la nouvelle section&lt;/p></body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:id="_Rbmd2El_Ee22odq9FQEeNw" name="Charger un livre existant" subject="_Rbmd1Ul_Ee22odq9FQEeNw">
+          <ownedComment xmi:id="_aDHtwEo4Ee2Zu6u5M9a3MA" annotatedElement="_Rbmd2El_Ee22odq9FQEeNw">
+            <body>&lt;p>Titre : Charger un livre existant &lt;/p>&lt;p>Description : L’user veut charger un livre déjà existant&lt;/p>&lt;p>Acteurs : auteur&lt;/p>&lt;p>Préconditions : &lt;/p>&lt;p>La page d’accueil affiche les livres déjà existants&lt;/p>&lt;p>Séquencement nominal : &lt;/p>&lt;p>1. User choisi le livre à charger&lt;/p>&lt;p>2. Syst vérifie que le livre peut pour s’ouvrir&lt;/p>&lt;p>3. Syst charge le livre existant&lt;/p>&lt;p>Alternatives : &lt;/p>&lt;p>Exceptions : &lt;/p>&lt;p>1. SN2 si échec, affichage échec, toujours sur la page d’accueil &lt;/p>&lt;p>Postconditions : &lt;/p>&lt;p>Le livre est chargé, le système ouvre l’interface qui donne modification au livre&lt;/p></body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:id="_Rbmd2Ul_Ee22odq9FQEeNw" name="Créer un enchainement de sections" subject="_Rbmd1Ul_Ee22odq9FQEeNw">
+          <ownedComment xmi:id="_fFkT8Eo4Ee2Zu6u5M9a3MA" annotatedElement="_Rbmd2Ul_Ee22odq9FQEeNw">
+            <body>&lt;p>Titre :  Créer un enchainement de sections&lt;/p>&lt;p>Description : auteur veut créer un enchainement entre deux sections&lt;/p>&lt;p>Acteurs : auteur&lt;/p>&lt;p>Préconditions : &lt;/p>&lt;p>Séquencement nominal : &lt;/p>&lt;p>1. L’auteur demande la création d’un enchainement &lt;/p>&lt;p>2. Syst attend que l’auteur choisisse la section 1&lt;/p>&lt;p>3. L’auteur choisi la section 1 &lt;/p>&lt;p>4. Syst attend que l’auteur choisisse la section 2&lt;/p>&lt;p>5. L’auteur choisi la section 2&lt;/p>&lt;p>6. Syst crée l’enchaînement&lt;/p>&lt;p>Alternatives : &lt;/p>&lt;p>Exceptions : &lt;/p>&lt;p>Postconditions :&lt;/p>&lt;p>On obtient un enchaînement entre la section 1 et 2&lt;/p></body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:id="_Rbmd2kl_Ee22odq9FQEeNw" name="Créer un objet" subject="_Rbmd1Ul_Ee22odq9FQEeNw">
+          <ownedComment xmi:id="_LZXPEEo4Ee2Zu6u5M9a3MA" annotatedElement="_Rbmd2kl_Ee22odq9FQEeNw">
+            <body>&lt;p>Titre : Créer un objet&lt;/p>&lt;p>Description : créer un nouvel objet&lt;/p>&lt;p>Acteurs : Auteur&lt;/p>&lt;p>Préconditions : &lt;/p>&lt;p>- L’auteur a ouvert un livre&lt;/p>&lt;p>Séquencement nominal : &lt;/p>&lt;p>1. Auteur choisi la création d’un objet&lt;/p>&lt;p>2. Le système affiche l'interface de la création : formulaire&lt;/p>&lt;p>3. Auteur rempli le formulaire&lt;/p>&lt;p>4. Auteur valide la création de l’objet&lt;/p>&lt;p>5. Système vérifie que le nom d’objet n’est pas utilisé&lt;/p>&lt;p>6. Retour sur le livre courant&lt;/p>&lt;p>Alternatives : &lt;/p>&lt;p>- SN5 si le nom saisit est déjà utilisé, affiche que l’objet est existant, retour SN3&lt;/p>&lt;p>Exceptions : &lt;/p>&lt;p>- l’Auteur appui sur annulé et la fiche se ferme&lt;/p>&lt;p>Postconditions : &lt;/p>&lt;p>- Le système a créé l’objet&lt;/p></body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:id="_Rbmd3El_Ee22odq9FQEeNw" name="Analyser le graphe" subject="_Rbmd1Ul_Ee22odq9FQEeNw">
+          <ownedComment xmi:id="_Bhc5UEo5Ee2Zu6u5M9a3MA" annotatedElement="_Rbmd3El_Ee22odq9FQEeNw">
+            <body>&lt;p>Titre : Analyser graphe&lt;/p>&lt;p>Description :  l’Analyse de graphe s’effectue lorsque l’auteur clique sur Générer Graphe, il permet de trouver les sections inatteignable&lt;/p>&lt;p>Acteurs :  l’Auteur&lt;/p>&lt;p>Préconditions :  Un livre est ouvert&lt;/p>&lt;p>Séquencement nominal : &lt;/p>&lt;p>1. L’auteur clique sur Analyser Graphe&lt;/p>&lt;p>2. Le système trouve les sections inatteignable&lt;/p>&lt;p>Alternatives : &lt;/p>&lt;p>1. Le système appelle Analyser graphe via Générer Graphe&lt;/p>&lt;p>Exceptions : &lt;/p>&lt;p>Postconditions :  Le système a en mémoire les sections inatteignable&lt;/p></body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:id="_Rbmd3kl_Ee22odq9FQEeNw" name="Générer pages HTML" subject="_Rbmd1Ul_Ee22odq9FQEeNw">
+          <ownedComment xmi:id="_sn2NMEo4Ee2Zu6u5M9a3MA" annotatedElement="_Rbmd3kl_Ee22odq9FQEeNw">
+            <body>&lt;p>Titre : Générer pages HTML&lt;/p>&lt;p>Description : L’auteur veut générer des pages HTML pour un livre&lt;/p>&lt;p>Acteurs : Auteur&lt;/p>&lt;p>Préconditions : Le livre doit exister, on est sur l’interface du livre&lt;/p>&lt;p>Scénario nominal : &lt;/p>&lt;p>1. L'auteur demande de générer le livre sous format HTML &lt;/p>&lt;p>2. Le système analyse le graphe du livre UC07&lt;/p>&lt;p>3. Le système génère les pages HTML&lt;/p>&lt;p>Alternatives : &lt;/p>&lt;p>Exceptions : &lt;/p>&lt;p>1. SN2 : le graphe contient des problèmes &lt;/p>&lt;p>    1. Le système revient à l’interface du livre&lt;/p>&lt;p>    2. Le système affiche des problèmes rencontrés&lt;/p>&lt;p>Postconditions : &lt;/p>&lt;p>L’auteur obtient un ensemble de page html représentant le livre jouable en ligne&lt;/p></body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:id="_Rbmd30l_Ee22odq9FQEeNw" name="Générer version imprimable " subject="_Rbmd1Ul_Ee22odq9FQEeNw">
+          <ownedComment xmi:id="_qDbvsEo4Ee2Zu6u5M9a3MA" annotatedElement="_Rbmd30l_Ee22odq9FQEeNw">
+            <body>&lt;p>Titre : Générer version imprimable &lt;/p>&lt;p>Description : générer une version imprimable du livre&lt;/p>&lt;p>Acteurs : auteur&lt;/p>&lt;p>Préconditions : le livre est bien crée, on est sur l’interface du livre&lt;/p>&lt;p>Séquencement nominal : &lt;/p>&lt;p>1. L'auteur demande de générer le livre sous format imprimable &lt;/p>&lt;p>2. Le système analyse les graphes du livre UC07&lt;/p>&lt;p>3. Le système génère la version pdf du livre&lt;/p>&lt;p>Alternatives : &lt;/p>&lt;p>Exceptions : &lt;/p>&lt;p>1. SN2 : le graphe contient des problèmes &lt;/p>&lt;p>    1. Le système revient à l’interface du livre&lt;/p>&lt;p>    2. Le système affiche des problèmes rencontrés&lt;/p>&lt;p>Postconditions :&lt;/p>&lt;p>L’utilisateur obtient la version imprimable&lt;/p></body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:id="_Rbmd4El_Ee22odq9FQEeNw" name="Gérer des information du livre" subject="_Rbmd1Ul_Ee22odq9FQEeNw">
+          <ownedComment xmi:id="_HX2sAEo5Ee2Zu6u5M9a3MA" annotatedElement="_Rbmd4El_Ee22odq9FQEeNw">
+            <body>&lt;p>Titre : Gérer des information du livre&lt;/p>&lt;p>Description : Auteur veut modifier les informations du livre ou supprimer le livre&lt;/p>&lt;p>Acteurs : Auteur &lt;/p>&lt;p>Préconditions : L’auteur est sur la page d’acceuil&lt;/p>&lt;p>Séquencement nominal : &lt;/p>&lt;p>1. Auteur choisi un livre existant sur la page d’acceuil par cli&lt;/p>&lt;p>2. Auteur choisi de modifier des information du livre&lt;/p>&lt;p>3. syst affiche des information du livre (formulaire)&lt;/p>&lt;p>4. Auteur modifie des information du livre&lt;/p>&lt;p>5. Auteur valide&lt;/p>&lt;p>6. Syst affiche un message de validation &lt;/p>&lt;p>7. On retourne a l’interface du livre courant&lt;/p>&lt;p>Alternatives : &lt;/p>&lt;p>1. SN2, si auteur choisi de supprimer le livre,  on va a SN5&lt;/p>&lt;p>2. SN4, si auteur annule la creation, alors on retourne a l’interface du livre courant&lt;/p>&lt;p>3. SN6, si syst affiche que il y a un echec, alors on retourne a SN4 avec les problèmes &lt;/p>&lt;p>4. SN7, si auteur a choisi de supprimer le livre, on retourne a la page d’acceuil&lt;/p>&lt;p>Exceptions : &lt;/p>&lt;p>Postconditions : &lt;/p>&lt;p>1. Le livre motifie est affiche dans la page d’acceuil&lt;/p></body>
+          </ownedComment>
+        </ownedUseCase>
         <ownedUseCase xmi:id="_Rbmd4Ul_Ee22odq9FQEeNw" name=" Gérer une section" subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
         <ownedUseCase xmi:id="_Rbmd4kl_Ee22odq9FQEeNw" name="Suppression d’un enchaînement" subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
         <ownedUseCase xmi:id="_Rbmd40l_Ee22odq9FQEeNw" name="Gérer un objet" subject="_Rbmd1Ul_Ee22odq9FQEeNw"/>
@@ -1292,6 +1306,42 @@
           <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_RbmeN0l_Ee22odq9FQEeNw" value="1"/>
         </ownedEnd>
       </packagedElement>
+      <packagedElement xmi:type="uml:Collaboration" xmi:id="_LmhE0Eo5Ee2Zu6u5M9a3MA" name="diagram_sequence">
+        <ownedBehavior xmi:type="uml:Interaction" xmi:id="_LmsrAEo5Ee2Zu6u5M9a3MA" name="Interaction1">
+          <eAnnotations xmi:id="_LnMaQEo5Ee2Zu6u5M9a3MA" source="uml2.diagrams">
+            <contents xmi:type="umlnotation:UMLDiagram" xmi:id="_LnNBUEo5Ee2Zu6u5M9a3MA" type="Sequence" element="_LmsrAEo5Ee2Zu6u5M9a3MA" name="creer un livre" measurementUnit="Himetric">
+              <children xmi:type="umlnotation:UMLShape" xmi:id="_LnNBUUo5Ee2Zu6u5M9a3MA" element="_LmsrAEo5Ee2Zu6u5M9a3MA" fontName="Sans" fontHeight="8" fillColor="16250871" transparency="0" lineColor="12632258" lineWidth="1" showStereotype="Label">
+                <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_LnNBUko5Ee2Zu6u5M9a3MA" type="interaction_compartment">
+                  <children xmi:type="umlnotation:UMLShape" xmi:id="_NaAbsEo5Ee2Zu6u5M9a3MA" element="_NZznYEo5Ee2Zu6u5M9a3MA" fontName="Sans" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                    <eAnnotations xmi:id="_NaBp0Eo5Ee2Zu6u5M9a3MA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                      <details xmi:id="_NaEGEEo5Ee2Zu6u5M9a3MA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                    </eAnnotations>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_NaEGEUo5Ee2Zu6u5M9a3MA" type="Stereotype"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_NaEtIEo5Ee2Zu6u5M9a3MA" type="Name"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_NaEtIUo5Ee2Zu6u5M9a3MA" type="Parent"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NaAbsUo5Ee2Zu6u5M9a3MA" x="450" y="80" width="3094" height="9525"/>
+                  </children>
+                  <children xmi:type="umlnotation:UMLShape" xmi:id="_ayjxMEo5Ee2Zu6u5M9a3MA" element="_aybOUEo5Ee2Zu6u5M9a3MA" fontName="Sans" fontHeight="8" fillColor="16116705" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                    <eAnnotations xmi:id="_ayk_UEo5Ee2Zu6u5M9a3MA" source="com.ibm.xtools.uml.ui.diagram.internal.styles">
+                      <details xmi:id="_ayk_UUo5Ee2Zu6u5M9a3MA" key="LifelineLabelStyle" value="Represents Name and Type Name"/>
+                    </eAnnotations>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_ayk_Uko5Ee2Zu6u5M9a3MA" type="Stereotype"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_aylmYEo5Ee2Zu6u5M9a3MA" type="Name"/>
+                    <children xmi:type="notation:BasicDecorationNode" xmi:id="_aynbkEo5Ee2Zu6u5M9a3MA" type="Parent"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ayjxMUo5Ee2Zu6u5M9a3MA" x="-3094" y="80" width="4867" height="9525"/>
+                  </children>
+                </children>
+                <children xmi:type="notation:BasicDecorationNode" xmi:id="_LnNBU0o5Ee2Zu6u5M9a3MA" type="Name"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LnNBVEo5Ee2Zu6u5M9a3MA" x="793" y="793"/>
+              </children>
+            </contents>
+          </eAnnotations>
+          <lifeline xmi:id="_NZznYEo5Ee2Zu6u5M9a3MA" name="auteur" represents="_NZ0OcEo5Ee2Zu6u5M9a3MA"/>
+          <lifeline xmi:id="_aybOUEo5Ee2Zu6u5M9a3MA" name="créer un livre" represents="_aydDgEo5Ee2Zu6u5M9a3MA"/>
+        </ownedBehavior>
+        <ownedAttribute xmi:id="_NZ0OcEo5Ee2Zu6u5M9a3MA" name="auteur" type="_Rbmd1El_Ee22odq9FQEeNw"/>
+        <ownedAttribute xmi:id="_aydDgEo5Ee2Zu6u5M9a3MA" name="créer un livre" type="_Rbmd1kl_Ee22odq9FQEeNw"/>
+      </packagedElement>
     </packagedElement>
     <profileApplication xmi:id="_RbmeOEl_Ee22odq9FQEeNw">
       <eAnnotations xmi:id="_RbmeOUl_Ee22odq9FQEeNw" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -1313,4 +1363,13 @@
     </profileApplication>
   </uml:Package>
   <Standard:Subsystem xmi:id="_RbmePkl_Ee22odq9FQEeNw" base_Component="_Rbmd1Ul_Ee22odq9FQEeNw"/>
+  <Default:Documentation xmi:id="_7cGhIEo3Ee2Zu6u5M9a3MA" base_Comment="_7ZAJ0Eo3Ee2Zu6u5M9a3MA"/>
+  <Default:Documentation xmi:id="_LZcuoEo4Ee2Zu6u5M9a3MA" base_Comment="_LZXPEEo4Ee2Zu6u5M9a3MA"/>
+  <Default:Documentation xmi:id="_Q7IOgEo4Ee2Zu6u5M9a3MA" base_Comment="_Q7CH4Eo4Ee2Zu6u5M9a3MA"/>
+  <Default:Documentation xmi:id="_aDNNUEo4Ee2Zu6u5M9a3MA" base_Comment="_aDHtwEo4Ee2Zu6u5M9a3MA"/>
+  <Default:Documentation xmi:id="_fFpMcEo4Ee2Zu6u5M9a3MA" base_Comment="_fFkT8Eo4Ee2Zu6u5M9a3MA"/>
+  <Default:Documentation xmi:id="_qDfaEEo4Ee2Zu6u5M9a3MA" base_Comment="_qDbvsEo4Ee2Zu6u5M9a3MA"/>
+  <Default:Documentation xmi:id="_sn5QgEo4Ee2Zu6u5M9a3MA" base_Comment="_sn2NMEo4Ee2Zu6u5M9a3MA"/>
+  <Default:Documentation xmi:id="_BhgjsEo5Ee2Zu6u5M9a3MA" base_Comment="_Bhc5UEo5Ee2Zu6u5M9a3MA"/>
+  <Default:Documentation xmi:id="_HX69cEo5Ee2Zu6u5M9a3MA" base_Comment="_HX2sAEo5Ee2Zu6u5M9a3MA"/>
 </xmi:XMI>
