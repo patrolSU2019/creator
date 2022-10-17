@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--xtools2_universal_type_manager-->
-<!--Rational Software Architect Designer 9.7.0.1-->
+<!--Rational Software Architect Designer 9.7.0-->
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
 <?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.uml.msl.model" version="7.0.0"><feature description="" name="com.ibm.xtools.ruml.feature" url="" version="7.0.0"/></signature>?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Default="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2" xmlns:Standard="http://www.eclipse.org/uml2/schemas/Standard/1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xsi:schemaLocation="http:///schemas/Default/_fNm3AAqoEd6-N_NOT9vsCA/2 pathmap://UML2_MSL_PROFILES/Default.epx#_fNwoAAqoEd6-N_NOT9vsCA?Default/Default? http://www.eclipse.org/uml2/schemas/Standard/1 pathmap://UML_PROFILES/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w">
@@ -1066,6 +1066,7 @@
                 <body>[]</body>
               </defaultValue>
             </ownedParameter>
+            <ownedParameter xmi:id="_Ah0tkE5FEe2_75TXOZHQeQ" name="story"/>
           </ownedOperation>
           <ownedOperation xmi:id="_Rbmdmkl_Ee22odq9FQEeNw" name="create_Item">
             <ownedParameter xmi:id="_igTSQEylEe2B79NAugqD_Q" name="name">
@@ -1121,7 +1122,8 @@
           </ownedOperation>
           <ownedOperation xmi:id="_oUoc0EyvEe2B79NAugqD_Q" name="edit_Section">
             <ownedParameter xmi:id="_pZo9EEyvEe2B79NAugqD_Q" name="name"/>
-            <ownedParameter xmi:id="_p7QcYEyvEe2B79NAugqD_Q" name="objet"/>
+            <ownedParameter xmi:id="_agXTME5FEe2_75TXOZHQeQ" name="objet"/>
+            <ownedParameter xmi:id="_p7QcYEyvEe2B79NAugqD_Q" name="story"/>
           </ownedOperation>
           <ownedOperation xmi:id="_QDRqYEyyEe2B79NAugqD_Q" name="remove_Section">
             <ownedParameter xmi:id="_VBIEcEyyEe2B79NAugqD_Q" name="section"/>
@@ -2070,6 +2072,11 @@
               <language></language>
               <body>[(banana, 3)]</body>
             </argument>
+            <argument xmi:type="uml:OpaqueExpression" xmi:id="_R_KHIE5FEe2_75TXOZHQeQ">
+              <eAnnotations xmi:id="_R_MjYE5FEe2_75TXOZHQeQ" source="Parameter" references="_Ah0tkE5FEe2_75TXOZHQeQ"/>
+              <language></language>
+              <body>In the kitchen ...</body>
+            </argument>
           </message>
           <message xmi:id="_rvbFgUyrEe2B79NAugqD_Q" name="create_Section" messageSort="reply" receiveEvent="_rvbFgkyrEe2B79NAugqD_Q" sendEvent="_rvbFgEyrEe2B79NAugqD_Q" connector="_rvbFg0yrEe2B79NAugqD_Q"/>
           <message xmi:id="_d9ejIEysEe2B79NAugqD_Q" name="check_Section" receiveEvent="_d9ejIkysEe2B79NAugqD_Q" sendEvent="_d9ejIUysEe2B79NAugqD_Q" connector="_d9fKNEysEe2B79NAugqD_Q">
@@ -2569,6 +2576,16 @@
               <eAnnotations xmi:id="_bvT7LUyvEe2B79NAugqD_Q" source="Parameter" references="_vNjrMEypEe2B79NAugqD_Q"/>
               <language></language>
               <body>newtitle</body>
+            </argument>
+            <argument xmi:type="uml:OpaqueExpression" xmi:id="_hR0_8E5FEe2_75TXOZHQeQ">
+              <eAnnotations xmi:id="_hR2OEE5FEe2_75TXOZHQeQ" source="Parameter" references="_agXTME5FEe2_75TXOZHQeQ"/>
+              <language></language>
+              <body>[(banane,3)]</body>
+            </argument>
+            <argument xmi:type="uml:OpaqueExpression" xmi:id="_lTKHYE5FEe2_75TXOZHQeQ">
+              <eAnnotations xmi:id="_lTKHYU5FEe2_75TXOZHQeQ" source="Parameter" references="_p7QcYEyvEe2B79NAugqD_Q"/>
+              <language></language>
+              <body>In the Kitchen ...</body>
             </argument>
           </message>
           <message xmi:id="_bvT7LkyvEe2B79NAugqD_Q" name="remove_Section" receiveEvent="_bvT7IkyvEe2B79NAugqD_Q" sendEvent="_bvT7IUyvEe2B79NAugqD_Q">
